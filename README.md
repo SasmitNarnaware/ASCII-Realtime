@@ -152,6 +152,11 @@ Want to take this further? Here are some ideas:
 - **Colored ASCII** — map each character's RGB value (not just grayscale) for full-color terminal output using `\033[38;2;R;G;Bm` true color codes
 - **Custom gradients** — let users define their own character sets via a config file
 
+### 🖥️ UX / Controls
+- **Live hotkeys** — press `g` to cycle gradients, `c` to cycle colors, `+/-` to adjust width, all without restarting
+- **FPS display** — show current frames-per-second in the corner
+- **Snapshot mode** — press `s` to save the current ASCII frame to a `.txt` file
+
 ### 📦 CLI Interface
 ```bash
 python main.py --gradient detailed --color cyan --width 150 --invert
